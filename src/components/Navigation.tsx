@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 const Navigation = () => {
 	const [menuOpen, setMenuOpen] = useState(false);
 	const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
+	const location = useLocation(); // Get the current location
 
 	const toggleMenu = () => {
 		setMenuOpen(!menuOpen);
@@ -32,7 +33,9 @@ const Navigation = () => {
 			</div>
 			<ul className={`menu-list ${menuOpen ? "open" : ""}`}>
 				<li>
-					<a href="#">Home</a>
+					<Link to="/" className={location.pathname === "/" ? "active" : ""}>
+						Home
+					</Link>
 				</li>
 				<li>
 					<a href="#aboutme">About</a>
@@ -42,6 +45,11 @@ const Navigation = () => {
 				</li>
 				<li>
 					<a href="#projects">Projects</a>
+				</li>
+				<li>
+					<Link to="/todo" className={location.pathname === "/todo" ? "active" : ""}>
+						Todo
+					</Link>
 				</li>
 			</ul>
 		</div>
