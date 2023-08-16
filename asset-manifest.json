@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/krishna-p/static/css/main.41d15e92.css",
+    "main.js": "/krishna-p/static/js/main.3ed238f4.js",
+    "static/js/787.91ef6424.chunk.js": "/krishna-p/static/js/787.91ef6424.chunk.js",
+    "static/media/bootstrap-icons.woff?": "/krishna-p/static/media/bootstrap-icons.4753c5ba57962b4d7bf8.woff",
+    "static/media/bootstrap-icons.woff2?": "/krishna-p/static/media/bootstrap-icons.6d63d0501e5ed7b79dab.woff2",
+    "index.html": "/krishna-p/index.html",
+    "main.41d15e92.css.map": "/krishna-p/static/css/main.41d15e92.css.map",
+    "main.3ed238f4.js.map": "/krishna-p/static/js/main.3ed238f4.js.map",
+    "787.91ef6424.chunk.js.map": "/krishna-p/static/js/787.91ef6424.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.41d15e92.css",
+    "static/js/main.3ed238f4.js"
+  ]
+}
